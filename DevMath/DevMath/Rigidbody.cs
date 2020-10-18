@@ -26,7 +26,7 @@ namespace DevMath
 
             Vector2 verplaatsing = Velocity * deltaTime;*/
 
-            Velocity = (forceDirection * force / mass) * deltaTime;
+            Velocity = (-forceDirection * force / mass) * deltaTime;
         }
     }
 }
